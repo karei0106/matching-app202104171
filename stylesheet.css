@@ -1,0 +1,181 @@
+body {
+	margin: 0;
+	font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a{
+	text-decoration: none;
+}
+
+.top-wrapper{
+	background-image: url("image/婚活０.jpg");
+	padding: 120px 0px 120px 0px;
+	background-size: cover;
+	color:#ffffff;
+	text-align: center;
+}
+
+.container{
+	width: 800px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.container h1{
+	font-size: 45px;
+	letter-spacing: 5px;
+	opacity: 0.8;
+}
+
+.container p{
+	opacity: 0.7;
+}
+
+.btn{
+	color: white;
+	opacity: 0.8;
+	padding: 8px 24px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.signup{
+	background-color: #239b76;
+}
+
+.btn:hover{
+	opacity: 0.5;
+}
+
+.facebook{
+	background-color: #3b5998;
+	margin-right: 10px;
+}
+
+.twitter{
+	background-color: #55acee;
+}
+
+.btn-wrapper{
+	margin: 40px 0px;
+}
+
+.fab{
+	margin-right: 5px;
+}
+
+header{
+	height: 80px;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	z-index: 100;
+}
+
+.logo{
+	height: 80px;
+	width: 200px;
+}
+
+.header-left{
+	float: left;
+}
+
+.header-right{
+	float: right;
+	background-color: rgba(230, 255, 255, 0.5);
+	transition: all 1.5s;
+}
+
+.header-right a{
+	color: black;
+	line-height: 80px;
+	padding: 0 25px;
+	display: block;
+}
+
+.header-right:hover{
+	background-color: rgba(20, 255, 255, 0.8);
+}
+
+.lesson-wrapper{
+	height: 500px;
+	padding-bottom: 80px;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+.heading{
+	padding-top: 60px;
+	color: #5f5d60;
+}
+
+.heading{
+	font-weight: normal;
+}
+
+.lesson{
+	float: left;
+	width: 25%;
+}
+
+.lesson img{
+	width: 170px;
+	height: auto;
+}
+
+.lesson-icon{
+	position: relative;
+}
+
+.lesson-icon p{
+	position: absolute;
+	top: 33px;
+	width: 100%;
+	color: rgb(104, 96, 96);
+}
+
+.text-contents{
+	width: 80%;
+	display: inline-block;
+	margin-top: 20px;
+	color: #b3aeb5;
+	font-size: 12px;
+}
+
+.message{
+	background-color: #5dca88;
+	padding: 15px 40px;
+	cursor: pointer;
+	box-shadow: 0px 8px #1a7940;
+}
+
+.message:active{
+	box-shadow: none;
+	position: relative;
+	top: 8px;
+}
+
+.message-wrapper{
+	padding-bottom: 80px;
+	border-bottom: 1px solid #eee;
+	text-align: center;
+}
+
+.heading h3{
+	font-weight: normal;
+}
+
+footer img{
+	width: 145px;
+}
+
+footer p{
+	color: #b3aeb5;
+	font-size: 12px;
+}
+
+footer{
+	padding-top: 30px;
+	text-align: center;
+}
